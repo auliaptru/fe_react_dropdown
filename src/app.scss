@@ -1,0 +1,15 @@
+.app {
+    display: flex;
+    align-items: center;
+    // justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    padding-top: 50px;
+    gap: 50px;
+    height: 100vh;
+    position: relative;
+    background-color: #e1f3ec;
+    .app__dropdown {
+        width: 50%;
+    }
+}
